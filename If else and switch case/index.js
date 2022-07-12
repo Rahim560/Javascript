@@ -34,30 +34,30 @@
 // Jetking =====> Robotics Classes
 // Chaugule =======> Medical Classes 
 
-const a = function a(){
-    "Exaltechs","Naresh","Zoom","Jetking","Chaugule"
-}
+const a =[
+    "Exaltechs","Naresh",1,2,3,"Zoom","Jetking","Chaugule"
+]
 // const a = a.n
 
-if(a){
-    console.log(" Web development Classes ")
-}
-else if (a === "Naresh"){
-console.log("SharePoint Classes")
 
-}
-else if (a === "Zoom"){
-    console.log("Networking Classes")
+// if(a){
+//     console.log(" Web development Classes ")
+// }
+// else if (a === "Naresh"){
+// console.log("SharePoint Classes")
 
-}
-else if (a === "Jetking"){
-    console.log("Robotics Classes")
+// }
+// else if (a === "Zoom"){
+//     console.log("Networking Classes")
 
-}
-else if (a === "Chaugule"){
-    console.log("Medical Classes")
+// }
+// else if (a === "Jetking"){
+//     console.log("Robotics Classes")
 
-}
-else {
-    console.log("Bhag Yaha se")
-}
+// }
+// else if (a === "Chaugule"){
+//     console.log("Medical Classes")
+
+// }
+// else {
+//     console.log("Bhag Yaha se")

@@ -14,7 +14,8 @@
 // }
 
 //Dynamic Value for Loop to be Repeated 
-var  a = prompt()
+var  a = "king"
 for (let i = 1; i < a; i++){
 
+    console.log(a, "this is me ")
 }

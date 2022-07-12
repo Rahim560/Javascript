@@ -1,7 +1,5 @@
-// alert("king of heart");
-// confirm("please your Name Here")
-
-var a = prompt("Name PLZ");
-document.write("Hello" + "  "+ a)
-
-
+// console.log("ji")
+const a =["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+if (a ){
+    console.log("Monday")
+}
