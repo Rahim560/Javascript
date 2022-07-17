@@ -34,9 +34,9 @@
 // Jetking =====> Robotics Classes
 // Chaugule =======> Medical Classes 
 
-const a =[
-    "Exaltechs","Naresh",1,2,3,"Zoom","Jetking","Chaugule"
-]
+// const a =[
+//     "Exaltechs","Naresh",1,2,3,"Zoom","Jetking","Chaugule"
+// ]
 // const a = a.n
 
 
@@ -61,3 +61,49 @@ const a =[
 // }
 // else {
 //     console.log("Bhag Yaha se")
+// const x= 15;
+// if(x>45){
+//     document.write("if")
+// }else{
+//     document.write("else")
+// }
+// let per = 7;
+// if(per >= 80 && per<=100){
+//     document.write("Your are merit")
+// }else if (per >=60 && per<=80){
+//     document.write("Your are frist Division")
+// }else if (per >=40 && per<=60){
+//     document.write("Your are second Division")
+// }else if (per >=33 && per<=40){
+//     document.write("Your are third Division")
+// }else if (per<33){
+//     document.write("Your are FAil")
+// }
+// else {
+//     document.write("Plese Enter vaild percentage")
+
+// }
+//Ternary operator
+
+// (20<30) ? document.write("Ternary Operator"):document.write("a")
+
+//switch statement in js
+
+// let day = 4
+// switch(day){
+//     case 0: document.write("Today is Monday")
+//     break;    
+//     case 1: document.write("Today is Tuesday")
+//     break;
+//     case 2: document.write("Today is Wednesday")
+//     break;
+//     case 3: document.write("Today is Thursday")
+//     break;
+//     case 4: document.write("Today is Friday")
+//     break;
+//     case 5: document.write("Today is Saturday")
+//     break;
+//     case 6: document.write("Today is Sunday")
+//     break;
+//     default:document.write("bhaag")
+// }
