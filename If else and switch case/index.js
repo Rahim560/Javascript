@@ -107,3 +107,17 @@
 //     break;
 //     default:document.write("bhaag")
 // }
+// let user ="Admin"
+// switch(user){
+//     case "Admin":
+//         document.write("Hello Admin");
+//         break;
+//     case "Guest":
+//             document.write("Hello Guest");
+//         break;
+//     case "Visitor":
+//             document.write("Byeee");
+//         break;
+//     default:
+//         document.write("Bhag yaha se ")
+// }

@@ -5,9 +5,9 @@ const king = ["a", "b", "ing","c", "d", "e","i", "f", "g", "h", "i"];
 // console.log(king.unshift("a"));
 // console.log(king.find((items)=>items ==="ing"));
 // console.log(king.findIndex((items)=>items ==="z"));
-console.log(king.includes("a"));
-console.log(king);
-console.log(king.indexOf("ing"));
+// console.log(king.includes("a"));
+// console.log(king);
+// console.log(king.indexOf("ing"));
 // console.log(king.some((naam) => naam === "ing"));
 // console.log(king.every((naam) => naam % 2 === 0));
 // console.log(king.every((naam) => naam > 10));
@@ -23,12 +23,21 @@ const product = [
 {c:"king", size: 10, color: "red",  brand: "KGF4",Price:4000, id:5 }
 ]
 
+const mapped = product.map((element)=>{
+    if(element.Price <= 4000){
+        return {...element, delivery: "31/02/03"}
+    } else {
+        return {...element, delivery: "01/07/2022" }
+    }
+})
+console.log(mapped)
+
 // console.log(product.filter((item)=> item.brand === "KGF4"))
 // console.log(product.filter((item)=>item.id !== 5))
 // console.log(product.map((item)=> item.size + 0.5 ))
 // console.log(product.map((item)=> item.c + "Shoes" ))
 // console.log(product)
-
+                                                                 
 // const arr1 = ["a", "b"]
 // const arr2 = ["c", "d"]
 // console.log(arr1.concat(arr2))

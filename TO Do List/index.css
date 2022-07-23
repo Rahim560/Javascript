@@ -3,11 +3,9 @@ body{
     width: 50%;
     margin: auto;
 }
-.addbtn{
-    margin: 0;
-}
+
 #parent{
-    background-color: darkgray;
+    /* background-color: darkgray; */
     width: 400px;
 }
 .para{

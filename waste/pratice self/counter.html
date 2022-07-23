@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 10px;
+      }
+      div {
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: lightcoral;
+        color: rgb(19, 34, 47);
+        padding: 30px;
+      }
+      .btn {
+        background-color: crimson;
+        color: wheat;
+        font-size: 20px;
+        font-family: arial;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <h1>Counter</h1>
+      <h3 class="zero" style="background-color: white">0</h3>
+      <button class="btn increment">Increment</button>
+      <button class="btn reset">Reset</button>
+    </div>
+
+    <script>
+      let count = 0;
+      let btns = document.querySelectorAll(".btn");
+      let zero = document.querySelector(".zero");
+      btns.forEach(function (item) {
+        item.addEventListener("click", function (e) {
+          var style = item.classList;
+          if (style.contains("increment")) {
+            count++;
+          } else if (style.contains("decrement")) {
+            count--;
+          } else {
+            count = 0;
+          }
+          zero.innerHTML = count;
+          console.log(zero);
+
+          if (count > 0) {
+            zero.style.color = "green";
+          } else if (count < 0) {
+            zero.style.color = "red";
+          } else {
+            zero.style.color = "black";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

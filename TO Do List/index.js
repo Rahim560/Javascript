@@ -22,6 +22,8 @@ let b = document.getElementById("inputbox")
 let c = document.getElementById("list")
 a.addEventListener("click",function(){
     var d = document.createElement("p")
+    
+
     d.innerText=b.value;
     c.appendChild(d)
     b.value = ""

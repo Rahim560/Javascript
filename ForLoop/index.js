@@ -134,7 +134,7 @@
 // // document.write(Array.isArray(c))
 // document.write(a+ "<br>")
 // // document.write(a.includes("Rahim"))
-var ages = [10,13,16,18,20,22,23]
+// var ages = [10,13,16,18,20,22,23]
 
 // document.write(ages+"<br>")
 // document.write(ages.some((check)=>check===18)+"<br>")
@@ -144,6 +144,9 @@ var ages = [10,13,16,18,20,22,23]
 
 // document.write(ages.filter((check)=>check===18))
 // console.log(ages.filter((check)=>check >YG     =  18))
+
+
+
 
 
 
