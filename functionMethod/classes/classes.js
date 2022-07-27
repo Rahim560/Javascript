@@ -39,13 +39,13 @@ const personNameDetails2 = new PersonDetails("khan", "king")
 // console.log(personNameDetails2);
 
 class PersonContact extends PersonDetails {
-    constructor(email,phone, city){
-        super(city);//parent k constructor ko call kar raha hai new PersonDetails
+    constructor(email,phone, ...city){
+        super(...city);//parent k constructor ko call kar raha hai new PersonDetails
 this.email = email;
 this.phone = phone;
     }
 }
-const personcontactDetails = new PersonContact(111,222,"abc@gm",1111, 5555)
+const personcontactDetails = new PersonContact("rahim",222,"abc@gm",1111, 5555)
 console.log(personcontactDetails)
 
 
