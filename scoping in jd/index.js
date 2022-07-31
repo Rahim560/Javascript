@@ -20,7 +20,7 @@
 // localscope()
 // console.log(age)
 
-//block level scope
+// block level scope
 // function frist(){
 //     for(let i= 0; i<=3; i++){
 //         console.log("block level", i)
@@ -29,7 +29,7 @@
 // }
 // frist()
 
-//All scope in this function 
+// All scope in this function 
 // const myName = "rahim"
 // function frist(){
 //     const age = 31;
@@ -44,3 +44,4 @@
 // second()
 // }
 // frist();
+
